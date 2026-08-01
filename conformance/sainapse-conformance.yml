@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://bayestree.com/
+notes: >-
+  Sainapse (by Bayestree Intelligence) publishes its compliance posture in the
+  FAQ on its marketing site: "Sainapse is compliant with SOC 2, HIPAA, ISO27001,
+  and GDPR frameworks. Additionally, Sainapse can be deployed on premises." No
+  public API, developer portal, or machine-readable specification is published,
+  so cross-cutting API standards (oauth2, rfc9457, pagination, etc.) cannot be
+  asserted or derived. Only the self-published compliance frameworks are recorded.
+standards:
+  - id: soc2
+    conforms: true
+    evidence: 'FAQ: "Sainapse is compliant with SOC 2 ... frameworks."'
+  - id: hipaa
+    conforms: true
+    evidence: 'FAQ: "Sainapse is compliant with ... HIPAA ... frameworks."'
+  - id: iso27001
+    conforms: true
+    evidence: 'FAQ: "Sainapse is compliant with ... ISO27001 ... frameworks."'
+  - id: gdpr
+    conforms: true
+    evidence: 'FAQ: "Sainapse is compliant with ... GDPR frameworks."'
+deployment:
+  on_premises: true
+  hosted: true
+  evidence: 'FAQ: "you can deploy Sainapse on-premises or utilize a hosted version."'

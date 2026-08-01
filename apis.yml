@@ -1,7 +1,17 @@
 aid: sainapse
 name: Sainapse
-description: 'Sainapse is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Sainapse, built by Bayestree Intelligence, is a unified, explainable AI engine
+  for customer support, outreach, and operations that is embedded directly in an
+  enterprise's environment. It connects to existing integrations to source
+  real-time data for autonomous resolution, grounds every response in verified
+  sources of data, and can act as an agent copilot (next best actions, suggested
+  responses) or as an autonomous agent. Sainapse learns from human-in-the-loop
+  corrections and evolving business rules, supports 220+ integrations, and is
+  offered as a hosted service or deployed on-premises. It publishes SOC 2, HIPAA,
+  ISO 27001, and GDPR compliance. Sainapse is an enterprise, demo-led product with
+  no public self-serve API, developer portal, or machine-readable specification at
+  this time.
 url: https://raw.githubusercontent.com/api-evangelist/sainapse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +19,32 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/4rXmFdrSY82YyZS8UOUbYkRR8.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- Customer Support
+- Customer Experience
+- Support Automation
+- Explainable AI
+- AI Agents
+- Enterprise AI
+- Machine Learning
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sainapse-domain-security.yml
 - type: Website
-  url: https://bayestree.com/
+  url: https://www.sainapse.ai/
+- type: Support
+  url: https://bayestree.com/contact-us
+- type: Careers
+  url: https://bayestree.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sainapse
+- type: Twitter
+  url: https://x.com/sainapseai
+- type: Compliance
+  url: conformance/sainapse-conformance.yml
+- type: Conformance
+  url: conformance/sainapse-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
