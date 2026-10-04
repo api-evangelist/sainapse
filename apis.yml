@@ -48,13 +48,13 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Customer-Support
+- Customer Support
 - Customer Experience
 - Support Automation
 - Explainable AI
 - AI Agents
 - Enterprise AI
-- Machine-Learning
+- Machine Learning
 - Automation
 tags_raw:
 - Company
@@ -67,6 +67,8 @@ tags_raw:
 - Enterprise AI
 - Machine Learning
 - Automation
+- Customer-Support
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
