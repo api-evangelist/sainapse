@@ -76,6 +76,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.sainapse.ai/pricing
+- type: Plans
+  url: plans/sainapse-plans-pricing.yml
 - url: https://www.sainapse.ai/blog
   type: Blog
 - type: DomainSecurity
