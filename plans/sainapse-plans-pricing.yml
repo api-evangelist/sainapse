@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.sainapse.ai/pricing
+sources:
+- https://www.sainapse.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: VPC deployment, on-prem connectors, SCIM
+  managed_tier: Starter
+published: true
+note: Tiered monthly platform fees with included AI-handled ticket volume and $0.50 overage; Enterprise
+  is custom annual. Annual billing takes 10% off the platform fee. VPC/on-prem deployment offered under
+  Enterprise license.
+plan_count: 3
+currency: USD
+plans:
+- name: Starter
+  price_text: $500 /month
+  price: 500
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 1,000 AI-handled tickets a month; full resolution engine and assist sidebar; 2 integrations;
+    hard spend cap
+  overage: $0.50 per extra AI-handled ticket
+- name: Growth
+  price_text: $2,000 /month
+  price: 2000
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: 5,000 AI-handled tickets a month; 4 integrations incl. Salesforce and ServiceNow; custom
+    workflows and AI quality gate; SSO, custom roles, priority support
+  overage: $0.50 per extra AI-handled ticket
+- name: Enterprise
+  price_text: Custom annual
+  period: year
+  unit: annual license
+  included_quota: Committed ticket capacity at committed rates; Document and Account Intelligence; VPC
+    deployment, on-prem connectors, SCIM; dedicated CSM and custom SLA
+  overage: Committed rates with a true-up rather than overage
+rate_limit_statements:
+- At the cap, the AI stops taking on new overage work instead of billing you.
+- We alert you at 80% and 100% of included volume.
